@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #E6E6FA, #FFC0CB);
+}
+.quiz-container{
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: 2em auto auto auto;
+    display: none;
+}
+
+.start-container {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 4em;
+}
+
+.start-container h1 {
+    font-size: 3rem;
+    color: #a98087;
+}
+
+.joyce,
+.quiz {
+    color: #9c9ccc;
+}
+
+.message-container{
+    text-align: center;
+}
+
+
+.open{
+    margin: auto;
+    margin-top: 2em;
+    text-align: center;
+    display: none;
+    background: linear-gradient(135deg, #B76D8D, #9B59B6);
+    padding: 1em 2em;
+    border: none;
+    border-radius: 20px 5px;
+    background: linear-gradient(135deg, #B76D8D, #9B59B6);
+    color: bisque;
+    cursor: pointer;
+}
+
+.open:hover {
+    background: linear-gradient(135deg, #9B59B6, #B76D8D); 
+}
+
+.final-message{
+    text-align: center;
+    display: none;
+    margin-top: 3em;
+    color: #9B59B6;
+}
+
+.ready{
+    font-size: 1.5rem;
+    background: linear-gradient(to right, #B3CDE0, #F8E1E1); 
+    width: 40%;
+    margin: 2em auto auto auto;
+    min-width: 300px;
+    color: rgb(96, 25, 138);
+}
+
+#start-btn{
+    margin-top: 2.9em;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 20px 5px;
+    background: linear-gradient(135deg, #B76D8D, #9B59B6);
+    color: bisque;
+}
+
+#start-btn:hover{
+    background: linear-gradient(135deg, #9B59B6, #B76D8D); 
+    cursor: pointer;
+}
+
+.question {
+    background: linear-gradient(to right, #B3CDE0, #F8E1E1); 
+    width: 60%;
+    margin: auto;
+    color: rgb(96, 25, 138);
+    font-size: 1.3rem;
+    min-width: 300px;
+    padding: 5px 20px;
+    margin-bottom: 2em;
+}
+
+.ans-btn {
+    background: linear-gradient(135deg, #9B59B6, #B76D8D); 
+    padding: 1em 2em;
+    margin:.50em;
+    border: none;
+    border-radius: 20px 5px;
+    color: bisque;
+}
+
+.ans-btn:hover{
+    background: linear-gradient(135deg, #B76D8D, #9B59B6);
+    cursor: pointer;
+}
+
+
+#timer{
+    margin-top: 2em;
+    color: red;
+}
+
+
+#next-button {
+    background: linear-gradient(135deg, #9B59B6, #B76D8D); 
+    padding: 1em 2em;
+    margin:.50em;
+    border: none;
+    border-radius: 20px 5px;
+    color: bisque;
+}
+#next-button:hover{
+    background: linear-gradient(135deg, #B76D8D, #9B59B6);
+    cursor: pointer;
+    
+}
+
+.message{
+    color: #a98087;
+    margin-bottom: 2em;
+}
+
+.score{
+    color: #9B59B6;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+
